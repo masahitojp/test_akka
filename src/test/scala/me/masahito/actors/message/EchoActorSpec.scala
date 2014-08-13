@@ -11,6 +11,7 @@ import akka.pattern.ask
 import akka.util.Timeout
 import scala.concurrent.duration._
 import scala.concurrent.Await
+import me.masahito.actors.StopSystemAfterAll
 
 class EchoActorSpec extends TestKit(ActorSystem("MySpec"))
   with ImplicitSender

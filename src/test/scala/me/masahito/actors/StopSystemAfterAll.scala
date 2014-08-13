@@ -1,4 +1,4 @@
-package me.masahito.actors.message
+package me.masahito.actors
 
 import org.scalatest.{Suite, BeforeAndAfterAll}
 import akka.testkit.TestKit
